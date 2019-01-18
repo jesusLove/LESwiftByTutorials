@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		491AE95421F0803A00A2BD23 /* Todo.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491AE95321F0803A00A2BD23 /* Todo.xcassets */; };
+		491AE95621F0805C00A2BD23 /* LETodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491AE95521F0805C00A2BD23 /* LETodoViewController.swift */; };
+		491AE95821F0807D00A2BD23 /* LETodo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491AE95721F0807D00A2BD23 /* LETodo.storyboard */; };
+		491AE95A21F080FC00A2BD23 /* LEDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491AE95921F080FC00A2BD23 /* LEDetailViewController.swift */; };
+		491AE95C21F0830100A2BD23 /* LETodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491AE95B21F0830100A2BD23 /* LETodoItem.swift */; };
+		491AE95F21F086E400A2BD23 /* LEFloatingBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491AE95E21F086E400A2BD23 /* LEFloatingBall.swift */; };
+		49644DF721F15DDF00E4DDBB /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49644DF621F15DDF00E4DDBB /* Date+Extension.swift */; };
 		49EB185F21F0156000CF6E56 /* LEStopWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB185E21F0156000CF6E56 /* LEStopWatchViewController.swift */; };
 		49EB186121F0157600CF6E56 /* LEStopWatch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49EB186021F0157600CF6E56 /* LEStopWatch.storyboard */; };
 		49EB186321F01B2400CF6E56 /* LEStopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB186221F01B2400CF6E56 /* LEStopWatch.swift */; };
@@ -33,6 +40,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		491AE95321F0803A00A2BD23 /* Todo.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Todo.xcassets; sourceTree = "<group>"; };
+		491AE95521F0805C00A2BD23 /* LETodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LETodoViewController.swift; sourceTree = "<group>"; };
+		491AE95721F0807D00A2BD23 /* LETodo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LETodo.storyboard; sourceTree = "<group>"; };
+		491AE95921F080FC00A2BD23 /* LEDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDetailViewController.swift; sourceTree = "<group>"; };
+		491AE95B21F0830100A2BD23 /* LETodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LETodoItem.swift; sourceTree = "<group>"; };
+		491AE95E21F086E400A2BD23 /* LEFloatingBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEFloatingBall.swift; sourceTree = "<group>"; };
+		49644DF621F15DDF00E4DDBB /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		49EB185E21F0156000CF6E56 /* LEStopWatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEStopWatchViewController.swift; sourceTree = "<group>"; };
 		49EB186021F0157600CF6E56 /* LEStopWatch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LEStopWatch.storyboard; sourceTree = "<group>"; };
 		49EB186221F01B2400CF6E56 /* LEStopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEStopWatch.swift; sourceTree = "<group>"; };
@@ -71,6 +85,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		491AE95221F07F2300A2BD23 /* 4.Todo */ = {
+			isa = PBXGroup;
+			children = (
+				49644DF521F15D9700E4DDBB /* Helper */,
+				491AE95321F0803A00A2BD23 /* Todo.xcassets */,
+				491AE95521F0805C00A2BD23 /* LETodoViewController.swift */,
+				491AE95721F0807D00A2BD23 /* LETodo.storyboard */,
+				491AE95921F080FC00A2BD23 /* LEDetailViewController.swift */,
+				491AE95B21F0830100A2BD23 /* LETodoItem.swift */,
+			);
+			path = 4.Todo;
+			sourceTree = "<group>";
+		};
+		491AE95D21F086AF00A2BD23 /* FloatingBall */ = {
+			isa = PBXGroup;
+			children = (
+				491AE95E21F086E400A2BD23 /* LEFloatingBall.swift */,
+			);
+			path = FloatingBall;
+			sourceTree = "<group>";
+		};
+		49644DF521F15D9700E4DDBB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				49644DF621F15DDF00E4DDBB /* Date+Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		49EB185D21F014D200CF6E56 /* 2.StopWatch */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +195,7 @@
 				49FBF78C21EF331B00CC1FFF /* 1.GoodsAsOldPhones */,
 				49EB185D21F014D200CF6E56 /* 2.StopWatch */,
 				49EB186421F0513400CF6E56 /* 3.FacebookMe */,
+				491AE95221F07F2300A2BD23 /* 4.Todo */,
 				49FBF78B21EF330100CC1FFF /* Supporting Files */,
 			);
 			path = LESwiftDemo;
@@ -183,6 +227,7 @@
 		49FBF78D21EF334D00CC1FFF /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				491AE95D21F086AF00A2BD23 /* FloatingBall */,
 				49FBF77D21EF32F500CC1FFF /* Main.storyboard */,
 				49FBF77921EF32F500CC1FFF /* AppDelegate.swift */,
 				49FBF78E21EF337C00CC1FFF /* LEMainViewController.swift */,
@@ -253,9 +298,11 @@
 				49FBF78121EF32F700CC1FFF /* Assets.xcassets in Resources */,
 				49FBF79321EF3A0B00CC1FFF /* GoodsAsOldPhones.storyboard in Resources */,
 				49FBF79B21EF3EE000CC1FFF /* GoodsAsOldPhones.xcassets in Resources */,
+				491AE95821F0807D00A2BD23 /* LETodo.storyboard in Resources */,
 				49EB187621F05EEF00CF6E56 /* FacebookMe.xcassets in Resources */,
 				49FBF77F21EF32F500CC1FFF /* Main.storyboard in Resources */,
 				49EB186121F0157600CF6E56 /* LEStopWatch.storyboard in Resources */,
+				491AE95421F0803A00A2BD23 /* Todo.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,15 +318,20 @@
 				49EB187A21F0601A00CF6E56 /* LEMeBaseCell.swift in Sources */,
 				49EB186321F01B2400CF6E56 /* LEStopWatch.swift in Sources */,
 				49EB186E21F0555300CF6E56 /* UIColor+Extension.swift in Sources */,
+				49644DF721F15DDF00E4DDBB /* Date+Extension.swift in Sources */,
 				49FBF78F21EF337C00CC1FFF /* LEMainViewController.swift in Sources */,
 				49FBF77A21EF32F500CC1FFF /* AppDelegate.swift in Sources */,
 				49EB186621F0519200CF6E56 /* LEMeBaseViewController.swift in Sources */,
 				49EB187021F05B7C00CF6E56 /* LEMeUser.swift in Sources */,
 				49FBF79121EF39E500CC1FFF /* LEProductsTableViewController.swift in Sources */,
 				49FBF79921EF3DFD00CC1FFF /* LEProduct.swift in Sources */,
+				491AE95C21F0830100A2BD23 /* LETodoItem.swift in Sources */,
+				491AE95621F0805C00A2BD23 /* LETodoViewController.swift in Sources */,
 				49EB187221F05C0200CF6E56 /* TableKeys.swift in Sources */,
 				49EB186C21F0530D00CF6E56 /* Specs.swift in Sources */,
+				491AE95A21F080FC00A2BD23 /* LEDetailViewController.swift in Sources */,
 				49FBF79721EF3CED00CC1FFF /* LEProductViewController.swift in Sources */,
+				491AE95F21F086E400A2BD23 /* LEFloatingBall.swift in Sources */,
 				49EB187421F05E9E00CF6E56 /* LEMeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
