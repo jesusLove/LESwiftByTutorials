@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3190CBBA60231A8D075CA8B9 /* Pods_LESwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5242E56E090BAB56E1E2077B /* Pods_LESwiftDemo.framework */; };
 		491AE95421F0803A00A2BD23 /* Todo.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491AE95321F0803A00A2BD23 /* Todo.xcassets */; };
 		491AE95621F0805C00A2BD23 /* LETodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491AE95521F0805C00A2BD23 /* LETodoViewController.swift */; };
 		491AE95821F0807D00A2BD23 /* LETodo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491AE95721F0807D00A2BD23 /* LETodo.storyboard */; };
 		491AE95A21F080FC00A2BD23 /* LEDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491AE95921F080FC00A2BD23 /* LEDetailViewController.swift */; };
 		491AE95C21F0830100A2BD23 /* LETodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491AE95B21F0830100A2BD23 /* LETodoItem.swift */; };
 		491AE95F21F086E400A2BD23 /* LEFloatingBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491AE95E21F086E400A2BD23 /* LEFloatingBall.swift */; };
+		4963510421F6BEE40067C1D9 /* LEGoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4963510321F6BEE40067C1D9 /* LEGoViewController.swift */; };
+		4963510721F6BEF80067C1D9 /* LEGo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4963510621F6BEF80067C1D9 /* LEGo.storyboard */; };
 		49644DF721F15DDF00E4DDBB /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49644DF621F15DDF00E4DDBB /* Date+Extension.swift */; };
+		49644E3421F2D18200E4DDBB /* Artistry.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49644E3321F2D18200E4DDBB /* Artistry.xcassets */; };
+		49644E3621F2D19D00E4DDBB /* artists.json in Resources */ = {isa = PBXBuildFile; fileRef = 49644E3521F2D19D00E4DDBB /* artists.json */; };
+		49644E3821F2D1E200E4DDBB /* Artistry.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49644E3721F2D1E200E4DDBB /* Artistry.storyboard */; };
+		49644E3A21F2D23A00E4DDBB /* LEArtistryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49644E3921F2D23A00E4DDBB /* LEArtistryListViewController.swift */; };
+		49644E3C21F2D2B100E4DDBB /* LEArtistryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49644E3B21F2D2B100E4DDBB /* LEArtistryListCell.swift */; };
+		49644E3E21F2D2C900E4DDBB /* LEArtistryWorkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49644E3D21F2D2C900E4DDBB /* LEArtistryWorkCell.swift */; };
+		49644E4021F2D2F100E4DDBB /* LEArtistryDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49644E3F21F2D2F100E4DDBB /* LEArtistryDetailController.swift */; };
+		49644E4221F2D30B00E4DDBB /* LEArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49644E4121F2D30B00E4DDBB /* LEArtist.swift */; };
+		49644E4421F2D31800E4DDBB /* LEWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49644E4321F2D31800E4DDBB /* LEWork.swift */; };
+		49C55B5E21F5B35700EAA294 /* LESearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C55B5D21F5B35700EAA294 /* LESearch.storyboard */; };
+		49C55B6021F5B37400EAA294 /* LEMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C55B5F21F5B37400EAA294 /* LEMasterViewController.swift */; };
+		49C55B6221F5B7DA00EAA294 /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C55B6121F5B7DA00EAA294 /* Candy.swift */; };
 		49EB185F21F0156000CF6E56 /* LEStopWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB185E21F0156000CF6E56 /* LEStopWatchViewController.swift */; };
 		49EB186121F0157600CF6E56 /* LEStopWatch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49EB186021F0157600CF6E56 /* LEStopWatch.storyboard */; };
 		49EB186321F01B2400CF6E56 /* LEStopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB186221F01B2400CF6E56 /* LEStopWatch.swift */; };
@@ -40,13 +55,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E7D48E762DA7E679F10C6BD /* Pods-LESwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LESwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LESwiftDemo/Pods-LESwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		491AE95321F0803A00A2BD23 /* Todo.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Todo.xcassets; sourceTree = "<group>"; };
 		491AE95521F0805C00A2BD23 /* LETodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LETodoViewController.swift; sourceTree = "<group>"; };
 		491AE95721F0807D00A2BD23 /* LETodo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LETodo.storyboard; sourceTree = "<group>"; };
 		491AE95921F080FC00A2BD23 /* LEDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDetailViewController.swift; sourceTree = "<group>"; };
 		491AE95B21F0830100A2BD23 /* LETodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LETodoItem.swift; sourceTree = "<group>"; };
 		491AE95E21F086E400A2BD23 /* LEFloatingBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEFloatingBall.swift; sourceTree = "<group>"; };
+		4963510321F6BEE40067C1D9 /* LEGoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEGoViewController.swift; sourceTree = "<group>"; };
+		4963510621F6BEF80067C1D9 /* LEGo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LEGo.storyboard; sourceTree = "<group>"; };
 		49644DF621F15DDF00E4DDBB /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		49644E3321F2D18200E4DDBB /* Artistry.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Artistry.xcassets; sourceTree = "<group>"; };
+		49644E3521F2D19D00E4DDBB /* artists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = artists.json; sourceTree = "<group>"; };
+		49644E3721F2D1E200E4DDBB /* Artistry.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Artistry.storyboard; sourceTree = "<group>"; };
+		49644E3921F2D23A00E4DDBB /* LEArtistryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEArtistryListViewController.swift; sourceTree = "<group>"; };
+		49644E3B21F2D2B100E4DDBB /* LEArtistryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEArtistryListCell.swift; sourceTree = "<group>"; };
+		49644E3D21F2D2C900E4DDBB /* LEArtistryWorkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEArtistryWorkCell.swift; sourceTree = "<group>"; };
+		49644E3F21F2D2F100E4DDBB /* LEArtistryDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEArtistryDetailController.swift; sourceTree = "<group>"; };
+		49644E4121F2D30B00E4DDBB /* LEArtist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEArtist.swift; sourceTree = "<group>"; };
+		49644E4321F2D31800E4DDBB /* LEWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEWork.swift; sourceTree = "<group>"; };
+		49C55B5D21F5B35700EAA294 /* LESearch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LESearch.storyboard; sourceTree = "<group>"; };
+		49C55B5F21F5B37400EAA294 /* LEMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEMasterViewController.swift; sourceTree = "<group>"; };
+		49C55B6121F5B7DA00EAA294 /* Candy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
 		49EB185E21F0156000CF6E56 /* LEStopWatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEStopWatchViewController.swift; sourceTree = "<group>"; };
 		49EB186021F0157600CF6E56 /* LEStopWatch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LEStopWatch.storyboard; sourceTree = "<group>"; };
 		49EB186221F01B2400CF6E56 /* LEStopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEStopWatch.swift; sourceTree = "<group>"; };
@@ -72,6 +102,8 @@
 		49FBF79621EF3CED00CC1FFF /* LEProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEProductViewController.swift; sourceTree = "<group>"; };
 		49FBF79821EF3DFD00CC1FFF /* LEProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEProduct.swift; sourceTree = "<group>"; };
 		49FBF79A21EF3EE000CC1FFF /* GoodsAsOldPhones.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = GoodsAsOldPhones.xcassets; sourceTree = "<group>"; };
+		5242E56E090BAB56E1E2077B /* Pods_LESwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LESwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87AAADBA820435C5DD70849 /* Pods-LESwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LESwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LESwiftDemo/Pods-LESwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3190CBBA60231A8D075CA8B9 /* Pods_LESwiftDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,12 +121,11 @@
 		491AE95221F07F2300A2BD23 /* 4.Todo */ = {
 			isa = PBXGroup;
 			children = (
+				49644DF921F1B9EB00E4DDBB /* ViewController */,
+				49644DF821F1B9D800E4DDBB /* Model */,
 				49644DF521F15D9700E4DDBB /* Helper */,
 				491AE95321F0803A00A2BD23 /* Todo.xcassets */,
-				491AE95521F0805C00A2BD23 /* LETodoViewController.swift */,
 				491AE95721F0807D00A2BD23 /* LETodo.storyboard */,
-				491AE95921F080FC00A2BD23 /* LEDetailViewController.swift */,
-				491AE95B21F0830100A2BD23 /* LETodoItem.swift */,
 			);
 			path = 4.Todo;
 			sourceTree = "<group>";
@@ -106,12 +138,112 @@
 			path = FloatingBall;
 			sourceTree = "<group>";
 		};
+		4963510121F6AEC10067C1D9 /* 7.PokedexGo */ = {
+			isa = PBXGroup;
+			children = (
+				4963510521F6BEEB0067C1D9 /* Views */,
+				4963510221F6BEC50067C1D9 /* ViewControllers */,
+			);
+			path = 7.PokedexGo;
+			sourceTree = "<group>";
+		};
+		4963510221F6BEC50067C1D9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4963510321F6BEE40067C1D9 /* LEGoViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4963510521F6BEEB0067C1D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4963510621F6BEF80067C1D9 /* LEGo.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		49644DF521F15D9700E4DDBB /* Helper */ = {
 			isa = PBXGroup;
 			children = (
 				49644DF621F15DDF00E4DDBB /* Date+Extension.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		49644DF821F1B9D800E4DDBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				491AE95B21F0830100A2BD23 /* LETodoItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49644DF921F1B9EB00E4DDBB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				491AE95521F0805C00A2BD23 /* LETodoViewController.swift */,
+				491AE95921F080FC00A2BD23 /* LEDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		49644E2D21F2D12100E4DDBB /* 5.Artistry */ = {
+			isa = PBXGroup;
+			children = (
+				49644E3121F2D15F00E4DDBB /* Resources */,
+				49644E3021F2D14F00E4DDBB /* ViewControllers */,
+				49644E2F21F2D14900E4DDBB /* Models */,
+				49644E2E21F2D14100E4DDBB /* Views */,
+				49644E3321F2D18200E4DDBB /* Artistry.xcassets */,
+			);
+			path = 5.Artistry;
+			sourceTree = "<group>";
+		};
+		49644E2E21F2D14100E4DDBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49644E3721F2D1E200E4DDBB /* Artistry.storyboard */,
+				49644E3B21F2D2B100E4DDBB /* LEArtistryListCell.swift */,
+				49644E3D21F2D2C900E4DDBB /* LEArtistryWorkCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49644E2F21F2D14900E4DDBB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				49644E4121F2D30B00E4DDBB /* LEArtist.swift */,
+				49644E4321F2D31800E4DDBB /* LEWork.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		49644E3021F2D14F00E4DDBB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				49644E3921F2D23A00E4DDBB /* LEArtistryListViewController.swift */,
+				49644E3F21F2D2F100E4DDBB /* LEArtistryDetailController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		49644E3121F2D15F00E4DDBB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49644E3521F2D19D00E4DDBB /* artists.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		49C55B5C21F5B33100EAA294 /* 6.CandySearch */ = {
+			isa = PBXGroup;
+			children = (
+				49C55B5D21F5B35700EAA294 /* LESearch.storyboard */,
+				49C55B5F21F5B37400EAA294 /* LEMasterViewController.swift */,
+				49C55B6121F5B7DA00EAA294 /* Candy.swift */,
+			);
+			path = 6.CandySearch;
 			sourceTree = "<group>";
 		};
 		49EB185D21F014D200CF6E56 /* 2.StopWatch */ = {
@@ -177,6 +309,8 @@
 			children = (
 				49FBF77821EF32F500CC1FFF /* LESwiftDemo */,
 				49FBF77721EF32F500CC1FFF /* Products */,
+				9E1249926AB83F8C3DEC5E0A /* Pods */,
+				7A333AD0912A06D8286A4527 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -196,6 +330,9 @@
 				49EB185D21F014D200CF6E56 /* 2.StopWatch */,
 				49EB186421F0513400CF6E56 /* 3.FacebookMe */,
 				491AE95221F07F2300A2BD23 /* 4.Todo */,
+				49644E2D21F2D12100E4DDBB /* 5.Artistry */,
+				49C55B5C21F5B33100EAA294 /* 6.CandySearch */,
+				4963510121F6AEC10067C1D9 /* 7.PokedexGo */,
 				49FBF78B21EF330100CC1FFF /* Supporting Files */,
 			);
 			path = LESwiftDemo;
@@ -235,6 +372,23 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		7A333AD0912A06D8286A4527 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5242E56E090BAB56E1E2077B /* Pods_LESwiftDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E1249926AB83F8C3DEC5E0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E87AAADBA820435C5DD70849 /* Pods-LESwiftDemo.debug.xcconfig */,
+				3E7D48E762DA7E679F10C6BD /* Pods-LESwiftDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -242,9 +396,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49FBF78821EF32F700CC1FFF /* Build configuration list for PBXNativeTarget "LESwiftDemo" */;
 			buildPhases = (
+				C9D68856B2EAE43DF0AEF686 /* [CP] Check Pods Manifest.lock */,
 				49FBF77221EF32F500CC1FFF /* Sources */,
 				49FBF77321EF32F500CC1FFF /* Frameworks */,
 				49FBF77421EF32F500CC1FFF /* Resources */,
+				16F8C985BD1405DDE67AD1A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,15 +454,69 @@
 				49FBF78121EF32F700CC1FFF /* Assets.xcassets in Resources */,
 				49FBF79321EF3A0B00CC1FFF /* GoodsAsOldPhones.storyboard in Resources */,
 				49FBF79B21EF3EE000CC1FFF /* GoodsAsOldPhones.xcassets in Resources */,
+				49644E3421F2D18200E4DDBB /* Artistry.xcassets in Resources */,
 				491AE95821F0807D00A2BD23 /* LETodo.storyboard in Resources */,
+				4963510721F6BEF80067C1D9 /* LEGo.storyboard in Resources */,
 				49EB187621F05EEF00CF6E56 /* FacebookMe.xcassets in Resources */,
 				49FBF77F21EF32F500CC1FFF /* Main.storyboard in Resources */,
+				49C55B5E21F5B35700EAA294 /* LESearch.storyboard in Resources */,
 				49EB186121F0157600CF6E56 /* LEStopWatch.storyboard in Resources */,
+				49644E3621F2D19D00E4DDBB /* artists.json in Resources */,
 				491AE95421F0803A00A2BD23 /* Todo.xcassets in Resources */,
+				49644E3821F2D1E200E4DDBB /* Artistry.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16F8C985BD1405DDE67AD1A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LESwiftDemo/Pods-LESwiftDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LESwiftDemo/Pods-LESwiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9D68856B2EAE43DF0AEF686 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LESwiftDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		49FBF77221EF32F500CC1FFF /* Sources */ = {
@@ -314,13 +524,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				49FBF79521EF3CD000CC1FFF /* LEContactViewController.swift in Sources */,
+				49644E4421F2D31800E4DDBB /* LEWork.swift in Sources */,
 				49EB185F21F0156000CF6E56 /* LEStopWatchViewController.swift in Sources */,
+				49644E4021F2D2F100E4DDBB /* LEArtistryDetailController.swift in Sources */,
 				49EB187A21F0601A00CF6E56 /* LEMeBaseCell.swift in Sources */,
 				49EB186321F01B2400CF6E56 /* LEStopWatch.swift in Sources */,
+				49644E3C21F2D2B100E4DDBB /* LEArtistryListCell.swift in Sources */,
 				49EB186E21F0555300CF6E56 /* UIColor+Extension.swift in Sources */,
 				49644DF721F15DDF00E4DDBB /* Date+Extension.swift in Sources */,
+				49C55B6221F5B7DA00EAA294 /* Candy.swift in Sources */,
+				49644E4221F2D30B00E4DDBB /* LEArtist.swift in Sources */,
+				49644E3E21F2D2C900E4DDBB /* LEArtistryWorkCell.swift in Sources */,
 				49FBF78F21EF337C00CC1FFF /* LEMainViewController.swift in Sources */,
 				49FBF77A21EF32F500CC1FFF /* AppDelegate.swift in Sources */,
+				49644E3A21F2D23A00E4DDBB /* LEArtistryListViewController.swift in Sources */,
+				49C55B6021F5B37400EAA294 /* LEMasterViewController.swift in Sources */,
 				49EB186621F0519200CF6E56 /* LEMeBaseViewController.swift in Sources */,
 				49EB187021F05B7C00CF6E56 /* LEMeUser.swift in Sources */,
 				49FBF79121EF39E500CC1FFF /* LEProductsTableViewController.swift in Sources */,
@@ -333,6 +551,7 @@
 				49FBF79721EF3CED00CC1FFF /* LEProductViewController.swift in Sources */,
 				491AE95F21F086E400A2BD23 /* LEFloatingBall.swift in Sources */,
 				49EB187421F05E9E00CF6E56 /* LEMeViewController.swift in Sources */,
+				4963510421F6BEE40067C1D9 /* LEGoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +695,7 @@
 		};
 		49FBF78921EF32F700CC1FFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E87AAADBA820435C5DD70849 /* Pods-LESwiftDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -495,6 +715,7 @@
 		};
 		49FBF78A21EF32F700CC1FFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E7D48E762DA7E679F10C6BD /* Pods-LESwiftDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

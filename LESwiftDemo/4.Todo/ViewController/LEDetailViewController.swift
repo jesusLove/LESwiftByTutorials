@@ -91,8 +91,10 @@ class LEDetailViewController: UIViewController {
         }
         navigationController?.popViewController(animated: true)
     }
+
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
+        // 点击屏幕结束编辑
         view.endEditing(true)
     }
 }
