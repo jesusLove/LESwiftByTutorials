@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		3190CBBA60231A8D075CA8B9 /* Pods_LESwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5242E56E090BAB56E1E2077B /* Pods_LESwiftDemo.framework */; };
+		49161C4921F8038000150655 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49161C4821F8038000150655 /* Constants.swift */; };
+		49161C4B21F8038700150655 /* PokemonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49161C4A21F8038700150655 /* PokemonConstants.swift */; };
+		49161C4E21F803A000150655 /* LibraryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49161C4D21F803A000150655 /* LibraryAPI.swift */; };
+		49161C5021F803A900150655 /* PersistencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49161C4F21F803A900150655 /* PersistencyManager.swift */; };
+		49161C5321F803CC00150655 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49161C5221F803CC00150655 /* Pokemon.swift */; };
+		49161C5521F804F900150655 /* LEGoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49161C5421F804F900150655 /* LEGoCell.swift */; };
+		49161C5A21F8352F00150655 /* LEPhoto.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49161C5921F8352F00150655 /* LEPhoto.storyboard */; };
+		49161C5C21F8354D00150655 /* LEPhotoRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49161C5B21F8354D00150655 /* LEPhotoRootViewController.swift */; };
+		49161C5F21F836A900150655 /* LEPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49161C5E21F836A900150655 /* LEPhotoCell.swift */; };
+		49161C6221F8373300150655 /* LEPhoto.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49161C6121F8373300150655 /* LEPhoto.xcassets */; };
+		49161C6821F83B8400150655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49161C6721F83B8400150655 /* Main.storyboard */; };
+		49161C6A21F83BA400150655 /* LEDaysRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49161C6921F83BA400150655 /* LEDaysRootViewController.swift */; };
+		49161C6C21F83DB200150655 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49161C6B21F83DB200150655 /* CustomViewController.swift */; };
+		49161C7021F83E6000150655 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49161C6F21F83E6000150655 /* UIViewController+Extension.swift */; };
 		491AE95421F0803A00A2BD23 /* Todo.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491AE95321F0803A00A2BD23 /* Todo.xcassets */; };
 		491AE95621F0805C00A2BD23 /* LETodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491AE95521F0805C00A2BD23 /* LETodoViewController.swift */; };
 		491AE95821F0807D00A2BD23 /* LETodo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491AE95721F0807D00A2BD23 /* LETodo.storyboard */; };
 		491AE95A21F080FC00A2BD23 /* LEDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491AE95921F080FC00A2BD23 /* LEDetailViewController.swift */; };
 		491AE95C21F0830100A2BD23 /* LETodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491AE95B21F0830100A2BD23 /* LETodoItem.swift */; };
-		491AE95F21F086E400A2BD23 /* LEFloatingBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491AE95E21F086E400A2BD23 /* LEFloatingBall.swift */; };
 		4963510421F6BEE40067C1D9 /* LEGoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4963510321F6BEE40067C1D9 /* LEGoViewController.swift */; };
 		4963510721F6BEF80067C1D9 /* LEGo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4963510621F6BEF80067C1D9 /* LEGo.storyboard */; };
 		49644DF721F15DDF00E4DDBB /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49644DF621F15DDF00E4DDBB /* Date+Extension.swift */; };
@@ -42,10 +55,9 @@
 		49EB187821F05F2100CF6E56 /* FacebookMe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49EB187721F05F2100CF6E56 /* FacebookMe.storyboard */; };
 		49EB187A21F0601A00CF6E56 /* LEMeBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB187921F0601A00CF6E56 /* LEMeBaseCell.swift */; };
 		49FBF77A21EF32F500CC1FFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBF77921EF32F500CC1FFF /* AppDelegate.swift */; };
-		49FBF77F21EF32F500CC1FFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FBF77D21EF32F500CC1FFF /* Main.storyboard */; };
+		49FBF77F21EF32F500CC1FFF /* DaysRoot.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FBF77D21EF32F500CC1FFF /* DaysRoot.storyboard */; };
 		49FBF78121EF32F700CC1FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FBF78021EF32F700CC1FFF /* Assets.xcassets */; };
 		49FBF78421EF32F700CC1FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FBF78221EF32F700CC1FFF /* LaunchScreen.storyboard */; };
-		49FBF78F21EF337C00CC1FFF /* LEMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBF78E21EF337C00CC1FFF /* LEMainViewController.swift */; };
 		49FBF79121EF39E500CC1FFF /* LEProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBF79021EF39E500CC1FFF /* LEProductsTableViewController.swift */; };
 		49FBF79321EF3A0B00CC1FFF /* GoodsAsOldPhones.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FBF79221EF3A0B00CC1FFF /* GoodsAsOldPhones.storyboard */; };
 		49FBF79521EF3CD000CC1FFF /* LEContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBF79421EF3CD000CC1FFF /* LEContactViewController.swift */; };
@@ -56,12 +68,25 @@
 
 /* Begin PBXFileReference section */
 		3E7D48E762DA7E679F10C6BD /* Pods-LESwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LESwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LESwiftDemo/Pods-LESwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		49161C4821F8038000150655 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		49161C4A21F8038700150655 /* PokemonConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonConstants.swift; sourceTree = "<group>"; };
+		49161C4D21F803A000150655 /* LibraryAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryAPI.swift; sourceTree = "<group>"; };
+		49161C4F21F803A900150655 /* PersistencyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistencyManager.swift; sourceTree = "<group>"; };
+		49161C5221F803CC00150655 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		49161C5421F804F900150655 /* LEGoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEGoCell.swift; sourceTree = "<group>"; };
+		49161C5921F8352F00150655 /* LEPhoto.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LEPhoto.storyboard; sourceTree = "<group>"; };
+		49161C5B21F8354D00150655 /* LEPhotoRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEPhotoRootViewController.swift; sourceTree = "<group>"; };
+		49161C5E21F836A900150655 /* LEPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEPhotoCell.swift; sourceTree = "<group>"; };
+		49161C6121F8373300150655 /* LEPhoto.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LEPhoto.xcassets; sourceTree = "<group>"; };
+		49161C6721F83B8400150655 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		49161C6921F83BA400150655 /* LEDaysRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDaysRootViewController.swift; sourceTree = "<group>"; };
+		49161C6B21F83DB200150655 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		49161C6F21F83E6000150655 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		491AE95321F0803A00A2BD23 /* Todo.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Todo.xcassets; sourceTree = "<group>"; };
 		491AE95521F0805C00A2BD23 /* LETodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LETodoViewController.swift; sourceTree = "<group>"; };
 		491AE95721F0807D00A2BD23 /* LETodo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LETodo.storyboard; sourceTree = "<group>"; };
 		491AE95921F080FC00A2BD23 /* LEDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDetailViewController.swift; sourceTree = "<group>"; };
 		491AE95B21F0830100A2BD23 /* LETodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LETodoItem.swift; sourceTree = "<group>"; };
-		491AE95E21F086E400A2BD23 /* LEFloatingBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEFloatingBall.swift; sourceTree = "<group>"; };
 		4963510321F6BEE40067C1D9 /* LEGoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEGoViewController.swift; sourceTree = "<group>"; };
 		4963510621F6BEF80067C1D9 /* LEGo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LEGo.storyboard; sourceTree = "<group>"; };
 		49644DF621F15DDF00E4DDBB /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
@@ -91,11 +116,10 @@
 		49EB187921F0601A00CF6E56 /* LEMeBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEMeBaseCell.swift; sourceTree = "<group>"; };
 		49FBF77621EF32F500CC1FFF /* LESwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LESwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FBF77921EF32F500CC1FFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49FBF77E21EF32F500CC1FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49FBF77E21EF32F500CC1FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DaysRoot.storyboard; sourceTree = "<group>"; };
 		49FBF78021EF32F700CC1FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49FBF78321EF32F700CC1FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49FBF78521EF32F700CC1FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49FBF78E21EF337C00CC1FFF /* LEMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEMainViewController.swift; sourceTree = "<group>"; };
 		49FBF79021EF39E500CC1FFF /* LEProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEProductsTableViewController.swift; sourceTree = "<group>"; };
 		49FBF79221EF3A0B00CC1FFF /* GoodsAsOldPhones.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GoodsAsOldPhones.storyboard; sourceTree = "<group>"; };
 		49FBF79421EF3CD000CC1FFF /* LEContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEContactViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +142,108 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49161C4721F8036200150655 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				49161C4A21F8038700150655 /* PokemonConstants.swift */,
+				49161C4821F8038000150655 /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		49161C4C21F8039100150655 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				49161C4D21F803A000150655 /* LibraryAPI.swift */,
+				49161C4F21F803A900150655 /* PersistencyManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		49161C5121F803BF00150655 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49161C5221F803CC00150655 /* Pokemon.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49161C5621F8112F00150655 /* 8.PhotoScroll */ = {
+			isa = PBXGroup;
+			children = (
+				49161C6021F8371F00150655 /* Resources */,
+				49161C5821F8351E00150655 /* Views */,
+				49161C5721F8351300150655 /* ViewControllers */,
+			);
+			path = 8.PhotoScroll;
+			sourceTree = "<group>";
+		};
+		49161C5721F8351300150655 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				49161C5B21F8354D00150655 /* LEPhotoRootViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		49161C5821F8351E00150655 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49161C5921F8352F00150655 /* LEPhoto.storyboard */,
+				49161C5E21F836A900150655 /* LEPhotoCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49161C6021F8371F00150655 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49161C6121F8373300150655 /* LEPhoto.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		49161C6321F83AD800150655 /* Days */ = {
+			isa = PBXGroup;
+			children = (
+				49161C6421F83B0000150655 /* Root */,
+				49FBF78C21EF331B00CC1FFF /* 1.GoodsAsOldPhones */,
+				49EB185D21F014D200CF6E56 /* 2.StopWatch */,
+				49EB186421F0513400CF6E56 /* 3.FacebookMe */,
+				491AE95221F07F2300A2BD23 /* 4.Todo */,
+				49644E2D21F2D12100E4DDBB /* 5.Artistry */,
+				49C55B5C21F5B33100EAA294 /* 6.CandySearch */,
+				4963510121F6AEC10067C1D9 /* 7.PokedexGo */,
+				49161C5621F8112F00150655 /* 8.PhotoScroll */,
+			);
+			path = Days;
+			sourceTree = "<group>";
+		};
+		49161C6421F83B0000150655 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				49FBF77D21EF32F500CC1FFF /* DaysRoot.storyboard */,
+				49161C6921F83BA400150655 /* LEDaysRootViewController.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		49161C6D21F83E3300150655 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				49161C6B21F83DB200150655 /* CustomViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		49161C6E21F83E3E00150655 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				49161C6F21F83E6000150655 /* UIViewController+Extension.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		491AE95221F07F2300A2BD23 /* 4.Todo */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,17 +256,12 @@
 			path = 4.Todo;
 			sourceTree = "<group>";
 		};
-		491AE95D21F086AF00A2BD23 /* FloatingBall */ = {
-			isa = PBXGroup;
-			children = (
-				491AE95E21F086E400A2BD23 /* LEFloatingBall.swift */,
-			);
-			path = FloatingBall;
-			sourceTree = "<group>";
-		};
 		4963510121F6AEC10067C1D9 /* 7.PokedexGo */ = {
 			isa = PBXGroup;
 			children = (
+				49161C5121F803BF00150655 /* Model */,
+				49161C4C21F8039100150655 /* API */,
+				49161C4721F8036200150655 /* Helper */,
 				4963510521F6BEEB0067C1D9 /* Views */,
 				4963510221F6BEC50067C1D9 /* ViewControllers */,
 			);
@@ -159,6 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				4963510621F6BEF80067C1D9 /* LEGo.storyboard */,
+				49161C5421F804F900150655 /* LEGoCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -326,13 +448,7 @@
 			isa = PBXGroup;
 			children = (
 				49FBF78D21EF334D00CC1FFF /* Main */,
-				49FBF78C21EF331B00CC1FFF /* 1.GoodsAsOldPhones */,
-				49EB185D21F014D200CF6E56 /* 2.StopWatch */,
-				49EB186421F0513400CF6E56 /* 3.FacebookMe */,
-				491AE95221F07F2300A2BD23 /* 4.Todo */,
-				49644E2D21F2D12100E4DDBB /* 5.Artistry */,
-				49C55B5C21F5B33100EAA294 /* 6.CandySearch */,
-				4963510121F6AEC10067C1D9 /* 7.PokedexGo */,
+				49161C6321F83AD800150655 /* Days */,
 				49FBF78B21EF330100CC1FFF /* Supporting Files */,
 			);
 			path = LESwiftDemo;
@@ -364,10 +480,10 @@
 		49FBF78D21EF334D00CC1FFF /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				491AE95D21F086AF00A2BD23 /* FloatingBall */,
-				49FBF77D21EF32F500CC1FFF /* Main.storyboard */,
+				49161C6E21F83E3E00150655 /* Category */,
 				49FBF77921EF32F500CC1FFF /* AppDelegate.swift */,
-				49FBF78E21EF337C00CC1FFF /* LEMainViewController.swift */,
+				49161C6721F83B8400150655 /* Main.storyboard */,
+				49161C6D21F83E3300150655 /* BaseViewController */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -453,15 +569,18 @@
 				49FBF78421EF32F700CC1FFF /* LaunchScreen.storyboard in Resources */,
 				49FBF78121EF32F700CC1FFF /* Assets.xcassets in Resources */,
 				49FBF79321EF3A0B00CC1FFF /* GoodsAsOldPhones.storyboard in Resources */,
+				49161C5A21F8352F00150655 /* LEPhoto.storyboard in Resources */,
+				49161C6221F8373300150655 /* LEPhoto.xcassets in Resources */,
 				49FBF79B21EF3EE000CC1FFF /* GoodsAsOldPhones.xcassets in Resources */,
 				49644E3421F2D18200E4DDBB /* Artistry.xcassets in Resources */,
 				491AE95821F0807D00A2BD23 /* LETodo.storyboard in Resources */,
 				4963510721F6BEF80067C1D9 /* LEGo.storyboard in Resources */,
 				49EB187621F05EEF00CF6E56 /* FacebookMe.xcassets in Resources */,
-				49FBF77F21EF32F500CC1FFF /* Main.storyboard in Resources */,
+				49FBF77F21EF32F500CC1FFF /* DaysRoot.storyboard in Resources */,
 				49C55B5E21F5B35700EAA294 /* LESearch.storyboard in Resources */,
 				49EB186121F0157600CF6E56 /* LEStopWatch.storyboard in Resources */,
 				49644E3621F2D19D00E4DDBB /* artists.json in Resources */,
+				49161C6821F83B8400150655 /* Main.storyboard in Resources */,
 				491AE95421F0803A00A2BD23 /* Todo.xcassets in Resources */,
 				49644E3821F2D1E200E4DDBB /* Artistry.storyboard in Resources */,
 			);
@@ -526,30 +645,39 @@
 				49FBF79521EF3CD000CC1FFF /* LEContactViewController.swift in Sources */,
 				49644E4421F2D31800E4DDBB /* LEWork.swift in Sources */,
 				49EB185F21F0156000CF6E56 /* LEStopWatchViewController.swift in Sources */,
+				49161C5321F803CC00150655 /* Pokemon.swift in Sources */,
 				49644E4021F2D2F100E4DDBB /* LEArtistryDetailController.swift in Sources */,
 				49EB187A21F0601A00CF6E56 /* LEMeBaseCell.swift in Sources */,
+				49161C4921F8038000150655 /* Constants.swift in Sources */,
 				49EB186321F01B2400CF6E56 /* LEStopWatch.swift in Sources */,
+				49161C7021F83E6000150655 /* UIViewController+Extension.swift in Sources */,
 				49644E3C21F2D2B100E4DDBB /* LEArtistryListCell.swift in Sources */,
 				49EB186E21F0555300CF6E56 /* UIColor+Extension.swift in Sources */,
 				49644DF721F15DDF00E4DDBB /* Date+Extension.swift in Sources */,
+				49161C5021F803A900150655 /* PersistencyManager.swift in Sources */,
+				49161C5F21F836A900150655 /* LEPhotoCell.swift in Sources */,
 				49C55B6221F5B7DA00EAA294 /* Candy.swift in Sources */,
 				49644E4221F2D30B00E4DDBB /* LEArtist.swift in Sources */,
 				49644E3E21F2D2C900E4DDBB /* LEArtistryWorkCell.swift in Sources */,
-				49FBF78F21EF337C00CC1FFF /* LEMainViewController.swift in Sources */,
 				49FBF77A21EF32F500CC1FFF /* AppDelegate.swift in Sources */,
 				49644E3A21F2D23A00E4DDBB /* LEArtistryListViewController.swift in Sources */,
 				49C55B6021F5B37400EAA294 /* LEMasterViewController.swift in Sources */,
 				49EB186621F0519200CF6E56 /* LEMeBaseViewController.swift in Sources */,
 				49EB187021F05B7C00CF6E56 /* LEMeUser.swift in Sources */,
+				49161C5521F804F900150655 /* LEGoCell.swift in Sources */,
 				49FBF79121EF39E500CC1FFF /* LEProductsTableViewController.swift in Sources */,
+				49161C6C21F83DB200150655 /* CustomViewController.swift in Sources */,
 				49FBF79921EF3DFD00CC1FFF /* LEProduct.swift in Sources */,
+				49161C5C21F8354D00150655 /* LEPhotoRootViewController.swift in Sources */,
 				491AE95C21F0830100A2BD23 /* LETodoItem.swift in Sources */,
+				49161C4B21F8038700150655 /* PokemonConstants.swift in Sources */,
+				49161C6A21F83BA400150655 /* LEDaysRootViewController.swift in Sources */,
 				491AE95621F0805C00A2BD23 /* LETodoViewController.swift in Sources */,
 				49EB187221F05C0200CF6E56 /* TableKeys.swift in Sources */,
 				49EB186C21F0530D00CF6E56 /* Specs.swift in Sources */,
+				49161C4E21F803A000150655 /* LibraryAPI.swift in Sources */,
 				491AE95A21F080FC00A2BD23 /* LEDetailViewController.swift in Sources */,
 				49FBF79721EF3CED00CC1FFF /* LEProductViewController.swift in Sources */,
-				491AE95F21F086E400A2BD23 /* LEFloatingBall.swift in Sources */,
 				49EB187421F05E9E00CF6E56 /* LEMeViewController.swift in Sources */,
 				4963510421F6BEE40067C1D9 /* LEGoViewController.swift in Sources */,
 			);
@@ -558,12 +686,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		49FBF77D21EF32F500CC1FFF /* Main.storyboard */ = {
+		49FBF77D21EF32F500CC1FFF /* DaysRoot.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				49FBF77E21EF32F500CC1FFF /* Base */,
 			);
-			name = Main.storyboard;
+			name = DaysRoot.storyboard;
 			sourceTree = "<group>";
 		};
 		49FBF78221EF32F700CC1FFF /* LaunchScreen.storyboard */ = {
